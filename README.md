@@ -127,10 +127,10 @@ ResponseEntity<GutendexResponse> response = restTemplate.getForEntity(url, Guten
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/tu-usuario/literalura.git
+git clone https://github.com/Rodrigo-Salva/Challenge-Literatura
 
 # Entra al proyecto
-cd literalura
+cd Challenge-Literatura
 
 # Compila y ejecuta
 mvn spring-boot:run
