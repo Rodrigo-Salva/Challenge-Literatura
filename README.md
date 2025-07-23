@@ -36,24 +36,24 @@ LiterAlura es una aplicación desarrollada como parte del **Challenge Backend Ja
 ## 📂 Arquitectura del Proyecto
 
 ```
-literAlura/
+📁 literAlura/
 │
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com.literAlura/
-│   │   │       ├── controller/        # Controladores REST
-│   │   │       ├── model/            # Clases de entidad (Libro, Autor, etc.)
-│   │   │       ├── repository/       # Interfaces JPA
-│   │   │       ├── service/          # Lógica de negocio
-│   │   │       └── LiterAluraApp.java # Clase principal
-│   │   └── resources/
-│   │       ├── application.properties # Configuración de la app
-│   │       └── data.sql              # Datos de prueba (opcional)
-│   └── test/                         # Tests unitarios (si aplica)
+├── 📁 src/
+│   ├── 📁 main/
+│   │   ├── 📁 java/
+│   │   │   └── 📁 com.literAlura/
+│   │   │       ├── 📁 controller/        # Controladores REST
+│   │   │       ├── 📁 model/            # Clases de entidad (Libro, Autor, etc.)
+│   │   │       ├── 📁 repository/       # Interfaces JPA
+│   │   │       ├── 📁 service/          # Lógica de negocio
+│   │   │       └── 📄 LiterAluraApp.java # Clase principal
+│   │   └── 📁 resources/
+│   │       ├── 📄 application.properties # Configuración de la app
+│   │       └── 📄 data.sql              # Datos de prueba (opcional)
+│   └── 📁 test/                         # Tests unitarios (si aplica)
 │
-├── pom.xml                           # Dependencias y configuración de Maven
-└── README.md                         # Documentación del proyecto
+├── 📄 pom.xml                           # Dependencias y configuración de Maven
+└── 📄 README.md                         # Documentación del proyecto
 ```
 
 ---
